@@ -1,0 +1,68 @@
+.main {
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    padding: 50px;
+
+  }
+  
+  .article {
+    margin-bottom: 50px;
+  }
+  
+  .title {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    background-color: rgb(198, 152, 187);
+    margin-left: 190px;
+    margin-right: 190px;
+    margin-bottom: 50px;
+  }
+  
+  .subtitle {
+    font-size: 1.3rem;
+    margin-bottom: 15px;
+    text-decoration: underline;
+    text-align: left;
+    margin-left: 190px;
+
+  }
+  
+  .subsubtitle {
+    font-size: 1.25rem;
+    margin-bottom: 10px;
+    text-align: left;
+    margin-left: 190px;
+  }
+  
+  .paragraph {
+    font-size: 1rem;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    text-align: justify;
+    margin-left: 190px;
+    margin-right: 190px;
+  }
+  
+  .button {
+    background-color:  rgb(198, 152, 187);
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+  }
+  
+  .button:hover {
+    background-color: rgb(153, 118, 145);
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  

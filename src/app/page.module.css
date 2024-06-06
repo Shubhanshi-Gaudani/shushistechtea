@@ -1,0 +1,44 @@
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+}
+
+.title {
+  font-family: 'Courier New', monospace;
+  margin-top: 300px;
+}
+
+.nav {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+.nav ul li {
+  margin: 0 20px;
+  display: inline-block;
+}
+
+.nav ul li a {
+  text-decoration: none;
+  color: rgb(125, 121, 121);
+  font-family: 'Courier New', monospace; 
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.nav ul li a:hover {
+  color: #f044dc;
+}
+
+.description {
+  font-family: 'Courier New', monospace;
+  margin-top: 50px;
+}
